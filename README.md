@@ -121,8 +121,10 @@
         <div class="description">Géographie Chapitre 9 - Bilan</div>
 
         <!-- Les boutons 2 à 25 prêts à être remplacés par tes liens -->
-        <div class="btn" onclick="openPDF("https://github.com/Max214354/Bonjour-Regaler-vous/blob/main/Methode%20caluls%202025%20s%C3%A9rie%202.pdf")">📄 Voir le document PDF 2</div>
-        <div class="Methode caluls 2025 série 2.pdf</div>
+       <div class="btn" onclick="openPDF('https://raw.githubusercontent.com/Max214354/Bonjour-Regaler-vous/refs/heads/main/Methode%20caluls%202025%20s%C3%A9rie%202.pdf')">
+    📄 Voir le document PDF 2
+</div>
+<div class="description">Méthode calculs 2025 - Série 2</div>
 
         <div class="btn" onclick="openPDF('LIEN_3')">📄 Voir le document PDF 3</div>
         <div class="description">DESCRIPTION_3</div>
