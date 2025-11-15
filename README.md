@@ -35,8 +35,8 @@
     <h2>L'image est belle non c'est Maxime hi hi hi :</h2>
 
     
-   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=" alt="Image Base64" alt="Maxime">
-  </div>
+ <img src="[https://via.placeholder.com/300](https://th.bing.com/th/id/OIP.0NIJPgtIGMZbxPLpacdWmAHaE7?w=280&h=187&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1)" alt="Maxime">
+
 
   <script>
     function afficher() {
