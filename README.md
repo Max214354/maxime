@@ -34,7 +34,7 @@
   <div id="zoneImage">
     <h2>L'image est belle non c'est Maxime hi hi hi :</h2>
 
-    <img src="https://i.imgur.com/yZ5JYwD.jpeg" alt="Maxime">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=" alt="Image Base64">
   </div>
 
   <script>
