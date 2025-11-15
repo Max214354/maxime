@@ -126,9 +126,10 @@
         <!-- Colonne gauche avec les boutons -->
         <div class="sidebar">
 
-            <div class="btn" onclick="openPDF(https://raw.githubusercontent.com/Max214354/maxime/2cd38331887a4c94fe1ec1c50d3b306d1f333c31/G%C3%A9o%20Ch%209%20Bilan.pdf
-')">📄 Voir le document PDF 1</div>
-            <div class="description">DESCRIPTION_1</div>
+           <div class="btn" onclick="openPDF('https://raw.githubusercontent.com/Max214354/maxime/2cd38331887a4c94fe1ec1c50d3b306d1f333c31/G%C3%A9o%20Ch%209%20Bilan.pdf')">
+    📄 Voir le document PDF 1
+</div>
+
 
             <div class="btn" onclick="openPDF('LIEN_2')">📄 Voir le document PDF 2</div>
             <div class="description">DESCRIPTION_2</div>
