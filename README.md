@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mes Documents PDF</title>
+<title>Bibliothèque PDF</title>
 
 <style>
     body {
@@ -107,8 +107,8 @@
 <body>
 
 <div class="header">
-    Mes Documents PDF
-    <p>Choisis un document à gauche, il s’affichera ici à droite. Tu peux aussi le télécharger.Sur ce site ici tu va trouver des documents de cours des evals pleins de chose comme ca, regale toi mais la règle d'or ont ne cafte pas au profs que ici il y a toute les reponses.Bonne documentation</p>
+    Bibliothèque PDF
+    <p>Choisis un document à gauche, il s’affichera ici à droite. Tu peux aussi le télécharger.</p>
 </div>
 
 <div class="container">
@@ -119,8 +119,9 @@
         <div class="btn" onclick="openPDF('https://raw.githubusercontent.com/Max214354/maxime/2cd38331887a4c94fe1ec1c50d3b306d1f333c31/G%C3%A9o%20Ch%209%20Bilan.pdf')">
             📄 Voir le document PDF 1
         </div>
-        <div class="description">Géographie Espaces et paysages de l'urbanisation  - Bilan</div>
+        <div class="description">Géographie Chapitre 9 - Bilan</div>
 
+        <!-- Les boutons 2 à 25 prêts à être remplacés par tes liens -->
         <div class="btn" onclick="openPDF('LIEN_2')">📄 Voir le document PDF 2</div>
         <div class="description">DESCRIPTION_2</div>
 
@@ -213,4 +214,3 @@ function openPDF(link) {
 
 </body>
 </html>
-
