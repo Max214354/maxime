@@ -6,10 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
-    body { font-family: Arial; text-align:center; padding:20px; }
+    body { 
+      font-family: Arial; 
+      text-align:center; 
+      padding:20px;
+    }
 
     #zoneImage {
-      display: none; /* image cachée au début */
+      display: none; /* Au début l'image est cachée */
       margin-top: 30px;
     }
 
@@ -22,22 +26,22 @@
       font-size: 20px;
       text-decoration: none;
       color: blue;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
 
-  <h1>Salut les potos clique sur le lien en dessous</h1>
+  <h1>Salut les potos, clique sur le lien en dessous</h1>
 
-  <a href="#" onclick="afficher()">Clique ici pour faire apparaître l'image</a>
+  <a onclick="afficher()">Clique ici pour faire apparaître l'image</a>
 
   <div id="zoneImage">
-    <h2>L'image est belle non c'est Maxime hi hi hi :</h2>
+    <h2>L'image est belle non ? 😄</h2>
 
-    
- <img src="<img width="276" height="180" alt="image" src="https://github.com/user-attachments/assets/721c878b-c67a-428b-bd32-19d126731641" />
-" alt="Maxime">
-
+    <!-- Ton image -->
+    <img src="https://tse1.mm.bing.net/th?id=OIP.7lC8iBqC3gJaxk76a6JHkAHaE8&pid=Api&P=0&h=180" alt="Image paysage">
+  </div>
 
   <script>
     function afficher() {
@@ -48,7 +52,6 @@
 
 </body>
 </html>
-
 
 
 
