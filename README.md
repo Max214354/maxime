@@ -126,8 +126,8 @@
 </div>
 <div class="description">Méthode calculs 2025 - Série 2</div>
 
-        <div class="btn" onclick="openPDF('LIEN_3')">📄 Voir le document PDF 3</div>
-        <div class="description">DESCRIPTION_3</div>
+        <div class="btn" onclick="openPDF('https://chatgpt.com/sandbox/4962cb56-9c09-4363-b262-20d1b00708c5.pdf" target="_blank')">📄 Voir le document PDF 3</div>
+        <div class="description">QCM eval anglais Mme Piel</div>
 
         <div class="btn" onclick="openPDF('LIEN_4')">📄 Voir le document PDF 4</div>
         <div class="description">DESCRIPTION_4</div>
