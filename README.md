@@ -126,8 +126,10 @@
 </div>
 <div class="description">Méthode calculs 2025 - Série 2</div>
 
-        <div class="btn" onclick="openPDF("[https://github.com/Max214354/Bonjour-Regaler-vous/blob/main/Capture%20d%E2%80%99%C3%A9cran_18-11-2025_133214_.jpeg](https://raw.githubusercontent.com/Max214354/Bonjour-Regaler-vous/refs/heads/main/Capture%20d%E2%80%99%C3%A9cran_18-11-2025_133214_.jpeg)")">📄 Voir le document PDF 3</div>
-        <div class="qcm anglais Piel</div>
+         <div class="btn" onclick="openPD('https://raw.githubusercontent.com/Max214354/Bonjour-Regaler-vous/refs/heads/main/Capture%20d%E2%80%99%C3%A9cran_18-11-2025_133214_.jpeg')">
+            📄 Voir le document PDF 3
+        </div>
+        <div class="description">QCM anglais Piel</div>
 
         <div class="btn" onclick="openPDF('LIEN_4')">📄 Voir le document PDF 4</div>
         <div class="description">DESCRIPTION_4</div>
