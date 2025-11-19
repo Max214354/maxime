@@ -126,7 +126,7 @@
         <div class="description">Méthode calculs 2025 - Série 2</div>
 
         <!-- BOUTON 3 corrigé -->
-        <div class="btn" onclick="openPDF('https://github.com/Max214354/Bonjour-Regaler-vous/blob/main/image.pdf')">
+        <div class="btn" onclick="openPDF('https://raw.githubusercontent.com/Max214354/Bonjour-Regaler-vous/main/image.pdf')">
             📄 Voir le document PDF 3
         </div>
         <div class="description">QCM anglais Piel</div>
