@@ -115,22 +115,23 @@
     <!-- Sidebar avec 25 boutons -->
     <div class="sidebar">
 
-        <div class="btn" onclick="openPDF('https://raw.githubusercontent.com/Max214354/maxime/2cd38331887a4c94fe1ec1c50d3b306d1f333c31/G%C3%A9o%20Ch%209%20Bilan.pdf')">
+        <div class="btn" onclick="openPDF('https://raw.githubusercontent.com/Max214354/maxime/2cd38331887a4c94fe1ec1c50d3b306d1f333c31/Géo%20Ch%209%20Bilan.pdf')">
             📄 Voir le document PDF 1
         </div>
         <div class="description">Géographie Chapitre 9 - Bilan</div>
 
-        <!-- Les boutons 2 à 25 prêts à être remplacés par tes liens -->
-       <div class="btn" onclick="openPDF('https://raw.githubusercontent.com/Max214354/Bonjour-Regaler-vous/refs/heads/main/Methode%20caluls%202025%20s%C3%A9rie%202.pdf')">
-    📄 Voir le document PDF 2
-</div>
-<div class="description">Méthode calculs 2025 - Série 2</div>
+        <div class="btn" onclick="openPDF('https://raw.githubusercontent.com/Max214354/Bonjour-Regaler-vous/refs/heads/main/Methode%20caluls%202025%20s%C3%A9rie%202.pdf')">
+            📄 Voir le document PDF 2
+        </div>
+        <div class="description">Méthode calculs 2025 - Série 2</div>
 
-         <div class="btn" onclick="openPD('https://raw.githubusercontent.com/Max214354/Bonjour-Regaler-vous/refs/heads/main/Capture%20d%E2%80%99%C3%A9cran_18-11-2025_133214_.jpeg')">
+        <!-- BOUTON 3 corrigé -->
+        <div class="btn" onclick="openPDF('https://raw.githubusercontent.com/Max214354/Bonjour-Regaler-vous/refs/heads/main/Capture%20d%E2%80%99%C3%A9cran_18-11-2025_133214_.jpeg')">
             📄 Voir le document PDF 3
         </div>
         <div class="description">QCM anglais Piel</div>
 
+        <!-- Boutons 4 à 25 -->
         <div class="btn" onclick="openPDF('LIEN_4')">📄 Voir le document PDF 4</div>
         <div class="description">DESCRIPTION_4</div>
 
@@ -206,12 +207,26 @@
 
 </div>
 
+<!-- SCRIPT MIS À JOUR AVEC CONVERSION AUTO EN PDF -->
 <script>
 function openPDF(link) {
-    // Utiliser Google Docs Viewer pour afficher le PDF
-    const viewer = 'https://docs.google.com/gview?url=' + encodeURIComponent(link) + '&embedded=true';
+
+    const isPDF = link.toLowerCase().includes(".pdf");
+    let finalLink = link;
+
+    if (!isPDF) {
+        // Conversion automatique en PDF pour images
+        finalLink = "https://docs.google.com/viewer?url=" 
+                    + encodeURIComponent(link) 
+                    + "&embedded=true&format=pdf";
+    }
+
+    const viewer = "https://docs.google.com/gview?url=" 
+                   + encodeURIComponent(finalLink) 
+                   + "&embedded=true";
+
     document.getElementById("pdfFrame").src = viewer;
-    document.getElementById("downloadBtn").href = link;
+    document.getElementById("downloadBtn").href = finalLink;
 }
 </script>
 
